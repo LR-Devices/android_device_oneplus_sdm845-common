@@ -58,7 +58,8 @@ PRODUCT_PACKAGES_DEBUG += \
 PRODUCT_PACKAGES += \
     init.qcom.rc \
     init.recovery.qcom.rc \
-    init.qcom.test.rc
+    init.qcom.test.rc \
+    init.redflare.rc
 
 # Device
 PRODUCT_PACKAGES += \
