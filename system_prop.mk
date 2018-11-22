@@ -65,6 +65,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     media.settings.xml=/system/etc/media_profiles_vendor.xml
 
+# NFC
+PRODUCT_PROPERTY_OVERRIDES += \
+    vendor.qti.nfc.chipid=pn80t
+
 # Perf
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.qti.core_ctl_max_cpu=4 \

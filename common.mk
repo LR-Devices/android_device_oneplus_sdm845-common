@@ -96,7 +96,11 @@ PRODUCT_PACKAGES += \
 
 # NFC
 PRODUCT_PACKAGES += \
-    NfcNci \
+    android.hardware.nfc@1.1 \
+    android.hardware.nfc@1.0
+
+# NXP
+PRODUCT_PACKAGES += \
     Tag \
     com.android.nfc_extras
 
