@@ -17,6 +17,8 @@
 
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/oneplus/sdm845-common/sdm845-common-vendor.mk)
+$(call inherit-product, vendor/liquid/config/phone-xxhdpi-4096-dalvik-heap.mk)
+$(call inherit-product, vendor/liquid/config/phone-xxhdpi-2048-hwui-memory.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
