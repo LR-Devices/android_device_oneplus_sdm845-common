@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ANT+
 lib64/com.qualcomm.qti.ant@1.0.so
 -lib64/libantradio.so
@@ -30,6 +31,8 @@ lib64/com.quicinc.cne.server@1.0.so
 lib64/vendor.qti.hardware.data.latency@1.0.so
 -priv-app/CNEService/CNEService.apk
 
+=======
+>>>>>>> parent of 8f5f8a46... sdm845-common: Add ANT+ support
 # DASH
 -sbin/dashd;rootfs
 
